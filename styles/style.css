@@ -5,7 +5,8 @@
     box-sizing: border-box;
 }
 
-/* generating fonts */
+/* generating common elements */
+
 .raleway {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -13,18 +14,68 @@
   font-style: normal;
 }
 
-.inter{
+
+.inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
 }
+.purple{
+    color: #4E47FF;
+}
+.bold{
+    font-weight: bold;
+}
+.primary-btn{
+    padding: 12px 35px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: "Inter";
+    background-color: #4E47FF;
+    color: white;
+}
+.i{
+    color: peachpuff;
+    font-weight: 900;
+    
+}
 
 /* webpage designing */
 
-.head-section{
-    max-width: 10vw;
+.head{
+    width: 100vw;
+}
+
+.hero-section{ 
+    padding-top: 50px;
     width: 100%;
-    height: 700px;
+    height: auto;
+    background: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.logo{
+    font-size: 34px;
+    font-weight: 900;
+}
+.hero-banner{
+    max-width: 62%;
+    text-align: center;
+    margin: 150px auto;
+    padding-bottom: 150px;
+}
+.banner-title{
+    font-size: 65px;
+}
+.focus-btn{
+    margin-top: 37px;
 }
 
