@@ -78,4 +78,37 @@ nav{
 .focus-btn{
     margin-top: 37px;
 }
+/* -----------main container------------ */
+
+.main-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.action-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 115px auto;
+    align-items: center;
+    column-gap: 200px;
+}
+.action-img{
+    border-radius: 48px;
+}
+.action-block{
+    text-align: left;
+    padding-right: 100px;
+    
+}
+.action-title{
+    font-size: 42px;
+}
+.action-text{
+    font-size: 24px;
+    color: #252432;
+    opacity: 0.5;
+    margin: 20px 0;
+}
+
 
