@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 /* generating common elements */
@@ -91,14 +92,13 @@ nav{
     justify-content: space-between;
     margin: 115px auto;
     align-items: center;
-    column-gap: 200px;
+    column-gap: 220px;
 }
 .action-img{
     border-radius: 48px;
 }
 .action-block{
     text-align: left;
-    padding-right: 100px;
     
 }
 .action-title{
@@ -111,4 +111,29 @@ nav{
     margin: 20px 0;
 }
 
+/* ---------productive users section------------ */
 
+.users-section{
+    background-color: rgba(78, 71, 255, 0.2);
+    width: 100%;
+    text-align: center;
+    border-radius: 24px;
+    margin: 115px auto;
+}
+.users-section-title{
+    font-size: 38px;
+    margin: 50px auto;
+}
+.stat-block{
+    display: flex;
+    gap: 165px;
+    justify-content: center;
+}
+.stat-info{
+    font-size: 80px;
+}
+.stat-block p{
+    color: rgba(0, 0, 0, .5);
+    font-family: "inter";
+    margin-bottom: 50px;
+}
