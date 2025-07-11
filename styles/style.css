@@ -124,7 +124,7 @@ nav{
     width: 100%;
     text-align: center;
     border-radius: 24px;
-    margin: 115px auto;
+    margin: 50px auto;
     padding-top: 50px;
 }
 .users-section-title{
@@ -147,7 +147,10 @@ nav{
 
 /* users feedback section */
 
-
+.feedback-section {
+    width: 100%;
+    margin: 50px auto;
+}
 
 .feedback-title {
     font-size: 42px;
@@ -204,7 +207,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 71px auto;
+    margin: 50px auto;
     padding: 70px 0;
 }
 .user-inputs {
@@ -251,7 +254,7 @@ nav{
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin: 100px auto 50px;
+    margin: 50px auto ;
   }
   .footer-logo {
     font-size: 80px;
@@ -284,7 +287,35 @@ nav{
     color: #890ee1;
     transform: scale(1.05);
   }
-  
+
+  /* ---------optional section---------- */
+   .webflow-big {
+    display: block;
+    border-radius: 48px;
+    margin: 20px auto 70px;
+   }
+  .optional-part {
+    width: 100%;
+    margin: 50px auto;
+    padding: 70px 0;
+    text-align: center;
+    background-color: #d48ff110;
+    border-radius: 20px;
+  }
+  .optional-title {
+    font-size: 40px;
+    font-weight: bold;
+
+  }
+  .optional-text{
+    font-size: 16px;
+    margin: 15px auto;
+    color: rgba(0, 0, 0, .5);
+  }
+  .optional-name {
+    font-size: 25px;
+    font-weight: bold;
+  }
   
 
 
