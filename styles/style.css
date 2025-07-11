@@ -39,6 +39,10 @@ html, body{
     font-family: "Inter";
     background-color: #4E47FF;
     color: white;
+    cursor: pointer;
+    transition: background-color 0.5s ease,
+                color 0.5s ease,
+                transform 0.4s ease;
 }
 .i{
     color: peachpuff;
@@ -272,6 +276,15 @@ nav{
   .web-links a:hover{
     color: rgb(232, 191, 154);
   }
+
+  /* ---------button: hover animation---------- */
+
+  .primary-btn:hover{
+    background-color:#FFD700;
+    color: #890ee1;
+    transform: scale(1.05);
+  }
+  
   
 
 
