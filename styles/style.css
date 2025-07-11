@@ -194,4 +194,52 @@ nav{
     column-gap: 20px;
 }
 
+/* lets connect section/ form section */
+
+.form-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 71px auto;
+    padding: 70px 0;
+}
+.user-inputs {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    font-family: "inter";
+    row-gap: 10px;
+}
+.user-inputs .name, .email, .user-msg, .msg-label {
+    display: block;
+}
+.user-inputs label{
+    font-size: 18px;
+    font-weight: 450;
+}
+
+#message::placeholder, .user-inputs input::placeholder {
+    font-family: "inter";
+    font-size: 18px;
+}
+#message {
+    resize: none;
+}
+
+.form-section-slogan {
+    display: flex;
+    font-size: 97px;
+}
+
+.user-inputs input, textarea {
+    padding: 20px 32px;
+    
+}
+.user-inputs input, textarea {
+    border-radius: 15px;
+    border: none;
+    box-shadow: 1px 1px 5px 0.25px rgba(0, 0, 0, .2);
+}
+
 
