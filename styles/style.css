@@ -42,7 +42,6 @@ html, body{
 }
 .i{
     color: peachpuff;
-    font-weight: 900;
     
 }
 
@@ -241,5 +240,39 @@ nav{
     border: none;
     box-shadow: 1px 1px 5px 0.25px rgba(0, 0, 0, .2);
 }
+
+/* ------------footer section---------- */
+  .footer {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto 50px;
+  }
+  .footer-logo {
+    font-size: 80px;
+  }
+
+  .web-links {
+    display: flex;
+    column-gap: 48px;
+    list-style-type: none;
+    margin: auto;
+  }
+  .web-links a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, .7);
+  }
+  .footer-text {
+    max-width: 36%;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .5);
+    margin: 20px auto;
+  }
+  .web-links a:hover{
+    color: rgb(232, 191, 154);
+  }
+  
+
 
 
